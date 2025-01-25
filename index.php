@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>青玖工具库</title>
+ <meta name="description" content="书山有路勤为径，学海无涯苦作舟，世事无常，但是我们可以在有限的生命时间里让世界变得更加美好！">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: '楷体', 'KaiTi', 'KaiTi Gothic', 'STKaiti', '华文楷体', serif; /* 设置楷体字体 */
+        }
+        .bg-image {
+            background-image: url('cs.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .links {
+            display: flex;
+            flex-direction: column; /* 垂直排列按钮 */
+            margin-top: 20px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 5px 0; /* 上下间距5px，左右0 */
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.5); /* 半透明的白色背景 */
+            color: #000; /* 黑色文字 */
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-family: '楷体', 'KaiTi', 'KaiTi Gothic', 'STKaiti', '华文楷体', serif; /* 设置楷体字体 */
+        }
+        .links a:hover {
+            background-color: rgba(255, 255, 255, 0.3); /* 鼠标悬停时背景颜色变化 */
+        }1 {
+            color: #000; /* 黑色文字 */
+            font-family: '楷体', 'KaiTi', 'KaiTi Gothic', 'STKaiti', '华文楷体', serif; /* 设置楷体字体 */
+        }
+    </style>
+ </head>
+
+ 
+<div class="top-section">
+    <img src="qj.jpg" alt="圆形图片" class="circle-image">
+ </div>
+
+
+
+
+ 
+<style>
+ /* 添加到你的样式表中 */
+.circle-image {
+    width: 150px; /* 圆形图片的宽度 */
+    height: 150px; /* 圆形图片的高度 */
+    border-radius: 50%; /* 圆形 */
+    position: absolute;
+    top: 60px; /* 根据需要调整位置 */
+    left: 50%;
+    transform: translateX(-50%); /* 使图片居中 */
+ }
+</style>
+
+<body>
+    <div class="bg-image">
+        <div class="container">
+            
+         <h1>
+    <h1>
+    <p style="background: linear-gradient(to right, #DDA0DD, #00BFFF); -webkit-background-clip: text; color: transparent;">
+      欢迎来到青玖工具库喵~
+    </p>
+          </h1>
+            <div class="links">
+                <!-- 链接入口 -->
+           
+
+             
+             <h2><a href="https://crimeshadow.linkpc.net/qjgjk/zyj/sc.php" class="passwordProtected" data-password="青玖照妖镜">青玖の照妖镜</a></h2><h2><a href="https://crimeshadow.linkpc.net/qjgjk/zyj/sc.php" class="passwordProtected" data-password="qjzyj">青玖の照妖镜</a></h2><h2><a href="https://crimeshadow.linkpc.net/qjgjk" >敬请期待</a></h2><h2><a href="https://crimeshadow.linkpc.net/qjgjk" >敬请期待</a></h2>
+           
+
+
+<script type="text/javascript">
+    document.querySelectorAll('a.passwordProtected').forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            event.preventDefault(); // 阻止默认的链接跳转行为
+            var password = prompt("请输入密码:");
+            if (password === this.getAttribute('data-password')) {
+                window.location.href = this.href; // 跳转到链接的URL
+            } else {
+                alert("密码错误！");
+            }
+        });
+    });
+     </script>
+             
+ <!--音乐-->
+          
+
+
+
+<style>
+/* 播放按钮样式 */
+.play-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #000; /* 文本颜色 */
+    font-size: 24px; /* 字体大小 */
+    text-align: center;
+    line-height: 50px; /* 为了垂直居中文本 */
+}
+
+/* 播放按钮悬停样式 */
+.play-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* 悬停时背景更不透明 */
+}
+
+/* 播放按钮图标样式 */
+.play-btn::before {
+    content: '♪';
+    font-family: Arial, sans-serif; /* 字体 */
+}
+</style>
+</head>
+<body>
+
+<!-- 音频标签 -->
+<audio id="myAudio" src="" preload="auto"></audio>
+
+<!-- 播放按钮 -->
+<div class="play-btn" onclick="playRandomMusic()">
+    <!-- 按钮文本 -->
+</div>
+
+<script>
+// 音乐文件列表
+var musicFiles = [
+    'music/起风了.mp3',
+    'music/账号已注销.mp3',
+    'music/忆夏思乡.mp3',
+    'music/山海入梦来.mp3',
+    'music/城南花已开.mp3',
+    'music/错位时空.mp3'
+    'music/星辰大海.mp3'
+    'music/莫问归期.mp3'
+    'music/Merry Christmas Mr. Lawrence.mp3'
+    'music/风居住的街道.mp3'
+    'music/晚风.mp3'
+    // ... 更多音乐文件
+];
+
+// 获取音频元素
+var audio = document.getElementById('myAudio');
+
+// 定义播放随机音乐的函数
+function playRandomMusic() {
+    // 生成一个随机索引
+    var randomIndex = Math.floor(Math.random() * musicFiles.length);
+    // 设置音频源为随机选中的音乐文件
+    audio.src = musicFiles[randomIndex];
+    // 尝试播放音乐
+    audio.play();
+}
+</script>
+
+
+             
